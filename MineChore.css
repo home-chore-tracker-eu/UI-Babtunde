@@ -94,3 +94,14 @@ nav a:hover {
   font-size: 50px;
   color: rgb(165, 61, 42);
 }
+
+.start-btn{
+  text-decoration: none;
+  border: 1px solid black;
+  color: teal;
+  width: 190px;
+  font-weight: normal;
+  padding: 0.8em 2em;
+  display: inline-block;
+  background: burlywood;
+}
