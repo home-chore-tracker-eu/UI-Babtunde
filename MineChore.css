@@ -113,6 +113,18 @@ nav a:hover {
   width: 95%;
   margin: 220px auto;
   padding: 3em 4%;
+  margin-bottom: -30px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 220px; */
+  width: 95%;
+  margin: 220px auto;
+  padding: 3em 4%;
+  
 }
 
 .about-section {
@@ -121,6 +133,23 @@ nav a:hover {
   padding-right: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.about-section2 {
+  margin-top: 10px;
+  width: 80%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  height: auto;
+}
+
+.about-section3{
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+
 }
 
 .profile-img {
@@ -228,14 +257,14 @@ p.earn:hover {
   border: 1px solid black;
   width: 45%;
   padding: 10px;
-  margin-left: 80px;
+  margin-left: 110px;
   font-weight: bold;
 }
 
 .txt {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  margin-left: 90px;
+  margin-left: 110px;
 }
 
 footer {
