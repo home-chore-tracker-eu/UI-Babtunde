@@ -124,7 +124,6 @@ nav a:hover {
   width: 95%;
   margin: 220px auto;
   padding: 3em 4%;
-  
 }
 
 .about-section {
@@ -145,11 +144,10 @@ nav a:hover {
   height: auto;
 }
 
-.about-section3{
+.about-section3 {
   width: 80%;
   height: auto;
   border-radius: 30px;
-
 }
 
 .profile-img {
@@ -296,3 +294,110 @@ footer {
 .copyright {
   text-align: center;
 }
+
+/*  */
+.base {
+  background: url(./Images/clean-cleaning-mop-48889.jpg);
+  position: absolute;
+  height: 40em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.3;
+}
+.header-text1 {
+  text-align: start;
+  padding-top: 1em;
+  color: rgb(165, 61, 42);
+  margin-top: 60px;
+  font-family: "Raleway", sans-serif;
+  /* font-size: 30px; */
+}
+
+.quick-header1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding: 0 2em;
+  line-height: 2em;
+  color: rgb(165, 61, 42);
+  margin-bottom: 0px;
+}
+
+.sub-text1 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+  /* font-size: 50px; */
+  color: rgb(165, 61, 42);
+  line-height: 2em;
+  padding: 0 2em;
+}
+
+.start-btn1 {
+  text-decoration: none;
+  border: 1px solid black;
+  color: teal;
+  width: 190px;
+  font-weight: normal;
+  padding: 0.8em 2em;
+  display: inline-block;
+  background: burlywood;
+  margin-left: 450px;
+  text-align: center;
+}
+
+.start-btn transparent1 {
+  text-decoration: none;
+  border: 1px solid black;
+  color: teal;
+  width: 190px;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  display: inline-block;
+  background: burlywood;
+  text-align: center;
+}
+
+.sub-section{
+  padding: 3em 4%;
+  margin-top: 150px;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid white;
+  padding: 10%;
+  background: white;
+  width: 95%;
+  margin: 220px auto;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.txt{
+  font-size: 20px;
+  color: gray;
+  line-height: 2;
+}
+
+.txt1{
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+.tracker{
+  width: 80%;
+  height: 450px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+
+
